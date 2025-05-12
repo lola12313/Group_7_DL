@@ -4,12 +4,35 @@ Group 7 Milestone 3 Project Page
 
 
 
-Gradio Demo: Twitter Sentiment Analyzer
+Project Title: Twitter-XLM-RoBERTa Multilingual Sentiment Analysis
 
-This notebook demonstrates how to build a multilingual sentiment analysis app using Hugging Face’s XLM-RoBERTa model and Gradio. The app takes a tweet as input and returns its predicted sentiment (positive, negative, or neutral) along with a confidence score.
+Summary: This project explores multilingual sentiment analysis using XLM-RoBERTa. We fine-tuned the model on TweetEval and built an interactive Gradio demo to analyze tweet sentiment in real time.
 
-It’s designed to work across multiple languages and is great for exploring how transformer models understand tone and emotion in short texts.
 
-You can run the interactive demo directly in Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lola12313/Group_7_DL/blob/main/Gradio_Demo.ipynb)
+Deliverables: 
 
+Live Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lola12313/Group_7_DL/blob/main/Gradio_Demo.ipynb)
+
+
+Video
+Paper
+
+
+Model: 
+Model: https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment
+Paper: https://aclanthology.org/2022.lrec-1.27/
+
+
+How to run: 
+
+from transformers import pipeline
+sentiment_pipeline = pipeline("sentiment-analysis", model="cardiffnlp/twitter-xlm-roberta-base-sentiment")
+result = sentiment_pipeline("Estoy muy feliz con el servicio.")
+print(result)
+
+
+
+Team Roles: 	
+	•Brandon Coutinho (DS): Evaluation Lead – metric computation, performance analysis
+* Lauren Mercer: Model & Demo Lead – inference scripts, UI development
+* Deepthi Sachidanand: Docs & Presentation Lead – architecture, innovations, slides
