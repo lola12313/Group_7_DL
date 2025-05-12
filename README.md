@@ -34,6 +34,6 @@ print(result)
 ```
 
 #### Team Roles: 	
-* Brandon Coutinho (DS): Evaluation Lead – metric computation, performance analysis
+* Brandon Coutinho: Evaluation Lead – metric computation, performance analysis
 * Lauren Mercer: Model & Demo Lead – inference scripts, UI development
 * Deepthi Sachidanand: Documentation & Presentation Lead – base model architecture analysis, innovations, slides
