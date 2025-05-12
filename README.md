@@ -17,7 +17,7 @@ Live Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badg
 
 Video: https://drive.google.com/file/d/1Y_fTwNq9AnIjr3nquzZLksrMVM4onaGF/view
 
-Paper: 
+Paper: https://drive.google.com/file/d/1N6MG0FngTh7OtMtCveEAhOMqOLygafbM/view?usp=share_link
 
 
 #### Model: 
