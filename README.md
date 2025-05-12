@@ -15,7 +15,7 @@ This project presents a detailed analysis of XLM-T, a domain-adapted multilingua
 Live Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lola12313/Group_7_DL/blob/main/Gradio_Demo.ipynb)
 
 
-Video: 
+Video: https://drive.google.com/file/d/1Y_fTwNq9AnIjr3nquzZLksrMVM4onaGF/view
 
 Paper: 
 
